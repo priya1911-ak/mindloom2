@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHabitTracker();
   initBreathingExercise();
   initRelaxPage();
-  initVoiceflow();
+  initChatbase();
 });
 
 /* ==========================================
@@ -462,18 +462,18 @@ function initRelaxPage() {
 }
 
 /* ==========================================
-   VOICEFLOW AI INTEGRATION
+   CHATBASE AI INTEGRATION
    ========================================== */
-function initVoiceflow() {
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '69e30193380fec02e85cfa13' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
+function initChatbase() {
+  window.embeddedChatbotConfig = {
+    chatbotId: "FSogqUnMcqKzx8Ijge5h-",
+    domain: "www.chatbase.co"
+  };
+  
+  const script = document.createElement('script');
+  script.src = "https://www.chatbase.co/embed.min.js";
+  script.setAttribute('chatbotId', "FSogqUnMcqKzx8Ijge5h-");
+  script.setAttribute('domain', "www.chatbase.co");
+  script.defer = true;
+  document.head.appendChild(script);
 }
