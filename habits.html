@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MindLoom Habit Tracker – Build positive daily routines and track your streaks.">
+  <title>Habit Tracker – MindLoom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Mind<span>Loom</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mood.html">Mood Tracker</a>
+        <a href="habits.html">Habits</a>
+        <a href="breathing.html">Breathing</a>
+        <a href="relax.html">Relax</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <div class="page-header">
+    <h1>✅ Habit Tracker</h1>
+    <p>Small steps every day lead to big change</p>
+  </div>
+
+  <section class="section">
+    <div class="glass-card fade-in">
+      <h2 style="font-family:var(--font-display);text-align:center;margin-bottom:1.5rem;">Add a New Habit</h2>
+      <div class="habit-input-group">
+        <input type="text" id="habit-input" placeholder="e.g., Meditate for 5 minutes" maxlength="60">
+        <button class="btn btn-primary" id="add-habit-btn">Add</button>
+      </div>
+    </div>
+    <div class="fade-in mt-2">
+      <h2 style="font-family:var(--font-display);text-align:center;margin-bottom:1.5rem;">Your Habits</h2>
+      <div class="habit-list" id="habit-list"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">MindLoom</div>
+      <div class="footer-info">
+        <p>Created by <strong>Priya</strong></p>
+        <p>📞 <a href="tel:8396014848">8396014848</a> &nbsp;|&nbsp; ✉️ <a href="mailto:priya996799@gmail.com">priya996799@gmail.com</a></p>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 MindLoom. Rise above the weight within.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

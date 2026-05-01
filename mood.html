@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MindLoom Mood Tracker – Log your daily emotions and understand your patterns over time.">
+  <title>Mood Tracker – MindLoom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Mind<span>Loom</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mood.html">Mood Tracker</a>
+        <a href="habits.html">Habits</a>
+        <a href="breathing.html">Breathing</a>
+        <a href="relax.html">Relax</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <div class="page-header">
+    <h1>🎭 Mood Tracker</h1>
+    <p>How are you feeling right now? Your feelings are valid.</p>
+  </div>
+
+  <section class="section">
+    <div class="glass-card fade-in">
+      <h2 style="font-family:var(--font-display);text-align:center;margin-bottom:0.5rem;">Select Your Mood</h2>
+      <p style="text-align:center;color:var(--text-muted);margin-bottom:1rem;font-size:0.9rem;">Take it one step at a time</p>
+      <div class="mood-selector" id="mood-selector"></div>
+    </div>
+    <div class="glass-card fade-in mt-3"><div class="mood-chart" id="mood-chart"></div></div>
+    <div class="glass-card fade-in mt-2">
+      <h2 style="font-family:var(--font-display);margin-bottom:1rem;">Recent History</h2>
+      <div class="mood-history" id="mood-history"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">MindLoom</div>
+      <div class="footer-info">
+        <p>Created by <strong>Priya</strong></p>
+        <p>📞 <a href="tel:8396014848">8396014848</a> &nbsp;|&nbsp; ✉️ <a href="mailto:priya996799@gmail.com">priya996799@gmail.com</a></p>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 MindLoom. Rise above the weight within.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

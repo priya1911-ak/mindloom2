@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MindLoom Breathing Exercises – Guided breathing techniques to calm your mind and reduce anxiety.">
+  <title>Breathing Exercises – MindLoom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Mind<span>Loom</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mood.html">Mood Tracker</a>
+        <a href="habits.html">Habits</a>
+        <a href="breathing.html">Breathing</a>
+        <a href="relax.html">Relax</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <div class="page-header">
+    <h1>🌬️ Breathing Exercises</h1>
+    <p>Find calm in just a few minutes. Breathe with intention.</p>
+  </div>
+
+  <section class="section">
+    <div class="glass-card fade-in">
+      <div class="breathing-container">
+        <div class="timer-options">
+          <button class="timer-btn active" data-duration="60">1 min</button>
+          <button class="timer-btn" data-duration="180">3 min</button>
+          <button class="timer-btn" data-duration="300">5 min</button>
+        </div>
+        <div class="breathing-circle-wrap">
+          <div class="breathing-circle" id="breathing-circle"></div>
+          <span class="breathing-text" id="breathing-guide">Press start to begin</span>
+        </div>
+        <div class="breathing-timer" id="breathing-timer"></div>
+        <button class="btn btn-primary" id="breathing-start">Start</button>
+        <p style="color:var(--text-muted);font-size:0.85rem;text-align:center;max-width:400px;">
+          Follow the 4-4-4 pattern: Inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds. Let your body settle into the rhythm.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">MindLoom</div>
+      <div class="footer-info">
+        <p>Created by <strong>Priya</strong></p>
+        <p>📞 <a href="tel:8396014848">8396014848</a> &nbsp;|&nbsp; ✉️ <a href="mailto:priya996799@gmail.com">priya996799@gmail.com</a></p>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 MindLoom. Rise above the weight within.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

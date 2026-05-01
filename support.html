@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MindLoom Support – Mental health tips, emergency resources, and a way to reach out.">
+  <title>Support – MindLoom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Mind<span>Loom</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mood.html">Mood Tracker</a>
+        <a href="habits.html">Habits</a>
+        <a href="breathing.html">Breathing</a>
+        <a href="relax.html">Relax</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <div class="page-header">
+    <h1>🆘 Support & Resources</h1>
+    <p>You are not alone. Help is always available.</p>
+  </div>
+
+  <section class="section">
+    <h2 class="section-title fade-in">Mental Health Tips</h2>
+    <p class="section-sub fade-in">Simple practices that can make a real difference.</p>
+    <div class="tips-grid">
+      <div class="tip-card fade-in"><div class="tip-icon">🧘</div><h3>Practice Mindfulness</h3><p>Spend 5 minutes each day being fully present. Notice your breath and surroundings without judgment.</p></div>
+      <div class="tip-card fade-in"><div class="tip-icon">💬</div><h3>Talk to Someone</h3><p>Reach out to a friend, family member, or professional. Sharing lightens the burden.</p></div>
+      <div class="tip-card fade-in"><div class="tip-icon">😴</div><h3>Maintain a Sleep Routine</h3><p>Quality sleep is the foundation of mental and physical well-being.</p></div>
+      <div class="tip-card fade-in"><div class="tip-icon">🏃</div><h3>Move Your Body</h3><p>Even a short walk boosts mood. Physical activity releases endorphins that fight stress.</p></div>
+      <div class="tip-card fade-in"><div class="tip-icon">📝</div><h3>Journal Your Thoughts</h3><p>Writing down feelings helps process emotions. Try gratitude journaling.</p></div>
+      <div class="tip-card fade-in"><div class="tip-icon">🌿</div><h3>Connect with Nature</h3><p>Time outdoors reduces cortisol and improves mood. Fresh air resets the mind.</p></div>
+    </div>
+
+    <div class="emergency-card fade-in">
+      <h3>⚠️ In Crisis?</h3>
+      <p>If you or someone you know is in immediate danger, please contact emergency services or a local helpline.</p>
+      <p style="margin-top:0.8rem;font-weight:600;color:var(--text);">
+        Crisis Line: <a href="tel:988" style="color:#d32f2f;">988</a> |
+        iCall: <a href="tel:9152987821" style="color:#d32f2f;">9152987821</a> |
+        Vandrevala: <a href="tel:18602662345" style="color:#d32f2f;">1860-2662-345</a>
+      </p>
+    </div>
+
+    <div class="glass-card fade-in" style="max-width:560px;margin:0 auto;">
+      <h2 style="font-family:var(--font-display);text-align:center;margin-bottom:0.5rem;">Reach Out to Us</h2>
+      <p style="text-align:center;color:var(--text-muted);margin-bottom:1.5rem;font-size:0.9rem;">We're here to listen.</p>
+      <form class="contact-form" onsubmit="event.preventDefault();alert('Thank you for reaching out. 💙');this.reset();">
+        <div class="form-group">
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-email">Email Address</label>
+          <input type="email" id="contact-email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Share what's on your mind…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message 💌</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">MindLoom</div>
+      <div class="footer-info">
+        <p>Created by <strong>Priya</strong></p>
+        <p>📞 <a href="tel:8396014848">8396014848</a> | ✉️ <a href="mailto:priya996799@gmail.com">priya996799@gmail.com</a></p>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 MindLoom. Rise above the weight within.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
